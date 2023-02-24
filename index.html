@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
+</head>
+<body style="padding: 20px;">
+    <!--//1 штмл файл, должно работать без интернета
+    //2) показывает, выводи на экран как кнопка мыши активна
+    // чтобы выделалялся клик цветом хотя бы раз
+    // паинт , делать горизонтальную линию-->
+    
+    <div id="mouse-key">
+        <div id="left-key" type="button" style="height: 50px; width:100px">left key</div>
+        <div id ='right-key' type="button" style="height: 50px; width:100px">right-key</div>
+        <div id="mouse-wheel" type="button" style="height: 50px; width:100px">mouse-wheel</div>
+        <div id="scroll-up" type="button" style="height: 50px; width:100px">scroll-up</div>
+        <div id="scroll-down" type="button" style="height: 50px; width:100px">scroll-down</div>
+        <!--
+        <div id="blablabla" type="button" oncontextmenu="return false;" style="height: 50px; width:200px">BLABLABLA-ALL-EVENTS-GO-HERE</div>
+        -->
+        
+        
+
+    </div>
+    <div id="colors">
+        <div id="red" style="height: 50px; width: 50px; background-color: #FA8072; border: 1px solid grey; border-radius:10px"></div>
+        <div id="white" style="height: 50px; width: 50px; background-color: white; border: 1px solid grey;  border-radius:10px"></div>
+    </div>
+    <canvas oncontextmenu="return false;"></canvas>
+</body>
+</html>

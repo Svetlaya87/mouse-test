@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+
+#mouse-key, #colors {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+canvas {
+    width: 800px;
+    height: 600px;
+    padding: 10px;
+    border: 1px dashed rgb(132, 132, 132);
+    box-shadow: 0px 0px 16px rgb(132, 132, 132);
+    border-radius: 16px;
+}
